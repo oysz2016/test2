@@ -17,33 +17,34 @@
     <body>
         <div id="main">
             <div id="error">本页面采用HTML5编辑，目前您的浏览器无法显示，请换成谷歌(<a href="http://www.google.cn/chrome/intl/zh-CN/landing_chrome.html?hl=zh-CN&brand=CHMI">Chrome</a>)或者火狐(<a href="http://firefox.com.cn/download/">Firefox</a>)浏览器，或者其他游览器的最新版本。</div>
+             <!-- <iframe src = "renxi.mp3" allow = "autoplay" hidden /> -->
             <audio autoplay="autoplay" height="100" width="100">
                     <source src="renxi.mp3" type="audio/mp3" />
                     <embed height="100" width="100" src="renxi.mp3" />
             </audio>
             <div id="wrap">
                 <div id="text">
-                    <div id="code"> <font color="#FF0000"> <span class="say">亲爱的宝宝，我爱你</span><br>
-                      <span class="say"> 我知道我不会甜言蜜语，</span><br>
-                      <span class="say"> 但是我会用行动证明一切</span><br>
-                      <span class="say">你说我啰嗦，</span><br>             
-                          <span class="say"> 有些东西因为越在乎所以越怕失去</span><br>
-                      <span class="say">因为我太爱你了，所以我害怕失去你</span><br>
-                      <span class="say">因为我太爱你了，所以我对你总啰嗦</span><br>
-                      <span class="say">希望可以执子之手，与子偕老</span><br>
-                      <span class="say">如果上天让我许三个愿望，</span><br>
-                              <span class="say">第一个是今生今世和你在一起， </span><br>
-                           <span class="say"> 第二个是再生再世和你在一起，</span><br>
-                           <span class="say">第三个是永生永世和你不分离 </span><br>
-                      <span class="say"><span class="space"></span> -- 爱你的老公</span> </font>
-                          <br />
-                          <br />
+                    <div id="code"> <font color="#000000"> 
+                      <span class="say_title">亲爱的宝贝: </span><br>
+<!--                       <span class="say">亲爱的宝宝，我爱你</span><br></br> -->
+                      <span class="say">算是第一次给宝贝写信了，之前没写的大部分原因是我觉得自己文笔不够好，担心写的不能很好表达对你的心意。想到你之前说很想我给你写信，我想这可能是你最想要的礼物之一吧，就鼓起勇气写了。 </span><br>
+                      <span class="say"> 认识你那段时间因为工作的事挺焦虑，加上临近搬家总是睡不好。说起来还真应该感谢那次失眠，也要感谢你那天的早起上班，不然可能也就不会遇见这么好的你。</span><br>
+                      <span class="say">之后一段时间的故事在你送我的日记里都有记录，还真是很甜了，每每翻起，我总是得意的发笑。谢谢宝宝这么用心给我的礼物。</span><br>             
+                      <span class="say">我本以为异地恋是件很痛苦的事情，刚认识你也只是想着打发苦闷的时间，可是慢慢的我发现，和你聊天能卸去些我身上的压力，有段时间我时常给你抱怨遇到的不顺心的事，虽然你不太懂，但总会想方设法的安慰我。之前遇到事情我没有和其他人倾述的习惯，周末都靠打游戏让自己放松点。而遇到你之后我发现什么都能和你讲，这种感觉让我很踏实，也很心安。我开始慢慢的相信，事情没那么困难，即使遇到些难题和倒霉的事，我也会安慰自己，能和你谈恋爱并可能一直在一起，我已经足够幸运了！就像现在的异地一样，相信不久后的日子里，我每天都能亲吻和拥抱你。</span><br>
+                      <span class="say">你有段时间和我说喜欢我是因为喜欢和我在一起时你的样子，我也很喜欢和你在一起时的我。在你面前可以不用过多掩饰自己，不用隐藏自己的想法和欲望，也不会觉得寂寞需要跑圈或者喝点点酒，因为任何时候你都会陪着我，开导我。大多数时间我在你面前都挺幼稚，实在是因为和你在一起后我开心了很多！</span><br>
+                      <span class="say">已经“嗖”的一下相处了一年多的时间，希望以后的日子里都能彼此陪伴，开心烦恼的都能彼此述说。我愿意花一生的时间守护你，爱护你。</span><br>
+                      <span class="say">每天醒来都觉得甚是爱你！</span><br>
+                      <span class="say">宝贝，七夕快乐！</span><br>
+
+                      <span class="say"><span class="space"></span> -- 爱你的哥哥</span> </font>
+                      <br />
+                          <!-- <br /> -->
                       </p>
                     </div>
                   </div>
                 <div id="clock-box">
-                    <span class="STYLE1"></span><font color="#33CC00">亲爱的，我喜欢你</font>
-<span class="STYLE1">已经是……</span>
+                    <span class="STYLE1"></span><font color="#ff7597">宝贝，爱上你</font>
+<span class="STYLE1" >已经是……</span>
                   <div id="clock"></div>
               </div>
                 <canvas id="canvas" width="1100" height="680"></canvas>
@@ -68,7 +69,7 @@
         canvas.attr("height", height);
         var opts = {
             seed: {
-                x: width / 2 - 20,
+                x: width / 2 + 20,
                 color: "rgb(190, 26, 37)",
                 scale: 2
             },
@@ -98,7 +99,7 @@
             footer: {
                 width: 1200,
                 height: 5,
-                speed: 10,
+                speed: 100,
             }
         }
 
@@ -182,9 +183,9 @@
 
         var textAnimate = eval(Jscex.compile("async", function () {
 		    var together = new Date();
-		    together.setFullYear(2010,1 , 15); 			//时间年月日
-		    together.setHours(16);						//小时	
-		    together.setMinutes(53);					//分钟
+		    together.setFullYear(2019,6 , 21); 			//时间年月日
+		    together.setHours(0);						//小时	
+		    together.setMinutes(0);					//分钟
 		    together.setSeconds(0);					//秒前一位
 		    together.setMilliseconds(2);				//秒第二位
 
